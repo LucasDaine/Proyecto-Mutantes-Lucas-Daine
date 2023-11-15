@@ -14,5 +14,21 @@ while True:
 
 print("ANALIZANDO...")
 
+print("su ADN es:")
+
+contFilas = 0
+contColum = 0
+for elemento in matriz:
+    contFilas = contFilas + 1
+    print("[",elemento,end=" ]")
+    if (contFilas > 5):
+        print("\n")
+        contFilas = 0
+
+
+
+
+
 ## matriz 6x6 
-# letras A - T - C - G #
+# letras A - T - C - G 
+# ATCGATCGATCGATCGATCGATCGATCGATCGATCG#
