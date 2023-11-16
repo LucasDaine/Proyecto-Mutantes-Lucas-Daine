@@ -25,18 +25,30 @@ for elemento in matriz:
         print("\n")
         contFilas = 0
 
-conteo = 1
+mutante = 0
+
+conteoH = 1
 for i in range (0,5):
     for j in range (0,5):
         if (matriz[j] == matriz[j+1]):
-            conteo = conteo+1
-            if (conteo == 4):
+            conteoH = conteoH+1
+            if (conteoH == 4):
                 print("Es Mutante")
                 break
+            else: mutante = 0
 
+conteoV = 1
+for i in range (0,5):
+    for j in range (0,5):
+        if (matriz[i] == matriz[i+6]):
+            conteoV = conteoV+1
+            if (conteoV == 4):
+                print("Es Mutante")
+                break
+            else: mutante = 0
 
 
 
 ## matriz 6x6 
 # letras A - T - C - G 
-# AAATGTCGATCGGGGGTCGATCGATCGATCGATCGA#
+# ATCGTCATCGCTACGTCGACGTCGATGCTCATGCTC#
