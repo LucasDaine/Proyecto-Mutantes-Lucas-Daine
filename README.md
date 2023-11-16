@@ -15,5 +15,3 @@ que una letra se repite en una de estas dos posiciones. Si llega al número de c
 se mostrará por pantalla un mensaje que indique cuántas veces se detectó esto y confirmando la 
 naturaleza mutante del adn a través de un "print". En caso de que no logre encadenar ninguna letra
 cuatro veces consecutivas, mostrará por pantalla que el humano no posee genes mutantes.
-
-# Expereincia Personal
